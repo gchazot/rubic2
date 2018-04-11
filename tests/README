@@ -1,0 +1,9 @@
+Ce dossier contient les tests unitaires permettant de valider le code utilisé
+dans le projet rubic. La plupart des tests concernent directement des classes de
+la librairie librubic. Cependant, il y a également le test regexpnb qui permet
+de vérifier le bon fonctionnement des expressions rationelles utilisées pour
+reconnaitre le type des nombres dans la classe ParamItem.
+Les classes RubicFiles et RubicImage ne sont pas testées dans ce répertoire car
+la rédaction des tests prendrait trop de temps. Néanmoins, elles sont utilisées
+simplement dans les programmes imgshop et defshop et ces programmes font ainsi
+office de test pour ces deux classes.
